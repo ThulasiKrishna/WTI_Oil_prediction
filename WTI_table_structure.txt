@@ -1,0 +1,16 @@
+Database host = WTI.mysql.pythonanywhere-services.com
+Database name = WTI
+
+CREATE TABLE pet (name VARCHAR(20), 
+owner VARCHAR(20),species VARCHAR(20), 
+sex CHAR(1), birth DATE, death DATE);
+
+
+CREATE TABLE pet (name VARCHAR(20), 
+owner VARCHAR(20),species VARCHAR(20), 
+sex CHAR(1), birth DATE, death DATE);
+
+
+Create table WTI (dates DATE, price DECIMAl(5,2), 
+previous_price DECIMAL(5,2), Change (DECIMAL 5,2), 
+Updatetime DATETIME, Month_code VARCHAR
